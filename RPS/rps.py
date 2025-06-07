@@ -19,25 +19,25 @@ while True:
     tochoice = input("Choice [Rock, Paper and Scissors]:\n").strip().capitalize()
     computerchoice = choice(tools)
     if tochoice == "Close":
-        print("Closing... 👍")
+        print("Closing...")
         break
     elif tochoice == "Rock" and computerchoice == "Rock":
-        print(f"Tie!! Try again! Computer chose: {computerchoice} ✊✊")
+        print(f"Tie!! Try again! Computer chose: {computerchoice}")
     elif tochoice == "Rock" and computerchoice == "Paper":
-        print(f"Computer chose: {computerchoice}! Haha, try again! ✊🖐️")
+        print(f"Computer chose: {computerchoice}! Haha, try again!")
     elif tochoice == "Rock" and computerchoice == "Scissors":
-        print(f"You won! Your computer wants to try again. Computer chose: {computerchoice} ✊✌️")
+        print(f"You won! Your computer wants to try again. Computer chose: {computerchoice}")
     elif tochoice == "Paper" and computerchoice == "Paper":
-        print(f"Tie!!!!!!!! Computer chose: {computerchoice} 🖐️🖐️")
+        print(f"Tie!!!!!!!! Computer chose: {computerchoice}")
     elif tochoice == "Paper" and computerchoice == "Rock":
-        print(f"You won! Computer chose: {computerchoice} 🖐️✊")
+        print(f"You won! Computer chose: {computerchoice}")
     elif tochoice == "Paper" and computerchoice == "Scissors":
-        print(f"Computer won! Computer chose: {computerchoice} 🖐️✌️")
+        print(f"Computer won! Computer chose: {computerchoice}")
     elif tochoice == "Scissors" and computerchoice == "Scissors":
-        print(f"Bro... Tie! Computer chose: {computerchoice} ✌️✌️")
+        print(f"Bro... Tie! Computer chose: {computerchoice}")
     elif tochoice == "Scissors" and computerchoice == "Paper":
-        print(f"You won! Congratulations! Computer chose: {computerchoice} ✌️🖐️")
+        print(f"You won! Congratulations! Computer chose: {computerchoice}")
     elif tochoice == "Scissors" and computerchoice == "Rock":
-        print(f"Computer won! Computer chose: {computerchoice}, Try Again! ✌️✊")
+        print(f"Computer won! Computer chose: {computerchoice}, Try Again!")
     else:
-        print("Error! Try Again! 👋")
+        print("Error! Try Again!")
